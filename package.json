@@ -1,7 +1,7 @@
 {
-  "name": "heroku-test-md",
+  "name": "karatemd.org",
   "version": "1.0.0",
-  "description": "Heroku test deploy.",
+  "description": "FNK RM WKF web site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
