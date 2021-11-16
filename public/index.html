@@ -1,32 +1,208 @@
 <!DOCTYPE html>
 <html> 
-
 <head>
 	<meta charset="utf-8" /> 
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>KarateDo Moldova</title>
-	<link rel="shortcut icon" href="img/ico.png" /> 
-	<link rel="stylesheet" href="css/index.css" media="screen" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FNK RM WKF</title>
+	<link rel="shortcut icon" href="img/ico.png"/> 
 
+	<link rel="stylesheet" href="css/main.css" media="screen"/>
+	<link rel="stylesheet" href="css/container.css"/>
+	<link rel="stylesheet" href="css/blocks.css"/>
+	<link rel="stylesheet" href="css/copyright.css"/>
+	
+	<link rel="stylesheet" href="css/animate.css"/>
+
+	<script type="text/javascript" src="http://www.s-sd.ru/js/jquery.js"></script>
+</head>
 <body>
-    <div class="container">
-        <div class="header animate__animated animate__fadeIn animate__delay-2s">
-            <div class="logo"></div>
-            <div class="menu">
-                <div class="link facebook"><a href="https://www.facebook.com/moldovakaratedo"></a></div>
-                <div class="link instagram"><a href="https://www.instagram.com/moldovakaratedo/"></a></div>
-            </div>
-        </div>
-        <div class="text">
-            <div><p class="text-big animate__animated animate__fadeInDown">COMING SOON</p></div>
-            <div class="text-small animate__animated animate__fadeInDown animate__delay-1s"></div>
-        </div>
-        <div class="footer">
-            <div><p class="animate__animated animate__fadeIn animate__delay-2s">Copyright © 2021 FNK RM WKF. All Rights Reserved.</p></div>
-        </div>
-    </div>  
+	<div class="container">
+		<div class="header">
+			<div class="logo"></div>
+
+			<div class="links">
+				<div class="link facebook" onClick="goLink('https://www.facebook.com/moldovakaratedo')"></div>
+				<div class="link instagram" onClick="goLink('https://www.instagram.com/moldovakaratedo/')"></div>
+			</div>
+		</div>
+
+		<div class="text-header">
+			<div><p class="text-head subhead">ORGANIZAȚIE SPORTIVĂ</p></div>
+			<div><p class="text-head big">Federația Națională</p></div>
+			<div><p class="text-head big">de Karate-Do</p></div>
+			<div><p class="text-head small">din Republica Moldova</p></div>
+		</div>
+
+		<div class="scroll"><a class="arrow" href="#godown"></a></div>
+	</div>
+
+	<div class="oficial" id="godown">
+		<div class="text-oficial">
+			<div class="subhead-oficial"><p>DESPRE NOI</p></div>
+			<div class="header-oficial"><p>FNK RM WKF este singurul reprezentant oficial în Republica Moldova al Federatiei Mondiale de Karate.</p></div>
+
+			<div class="main-oficial">
+				<div class="oficial-hr"><hr><p>侍の言葉</p></div>
+				<div class="smalltext-oficial">
+					<p class="small-subhead-oficial">Federația Națională de Karate-Do din Republica Moldova (WKF) are drept scop promovarea și dezvoltarea Karate-Do în Republica Moldova.</p>
+					<p>Este o organizație necomercială de nivel republican, fondată la 17 mai 2007.</p>
+					<p>La nivel național, FNK RM WKF este recunoscută de către Ministerul Justiției drept organizație de utilitate publică, 
+						conlucrând activ cu structurile sportive locale precum Comitetul Național Olimpic și Sportiv (CNOS) și Ministerul Educației și Cercetării.</p> 
+					<p>Pe planul internațional, este membră a Federației Mondiale de Karate 
+						(World Karate Federation), a Federației Europene de Karate (European Karate Federation) 
+						și a Federației Mondiale de Shotokan (World Shotokan Federation).</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="pic-oficial"></div>
+	</div>
+
+	<!-- <div class="about">
+		<div class="subhead-oficial"><p>SERVICII</p></div>
+		<div class="header-oficial"><p>Devine cu un pas mai aproape de Karate-Do împreună cu FNK RM.</p></div>
+
+		<div class="about-display about-top">
+			<div class="about-size about-pic pic1"></div>
+			<div class="about-size about-pic pic2"></div>
+			<div class="about-size about-pic pic3"></div>
+			<div class="about-size about-pic pic4"></div>
+		</div>
+
+		<div class="about-display about-bottom">
+			<div class="about-text">
+				<p>Antrenamente de Karate-Do pentru tineret și copii de toate vârstele.</p>
+			</div>
+
+			<div class="about-text">
+				<p>Cursuri pentru adulți și activități pentru părinți alături de copii.</p>
+			</div>
+
+			<div class="about-text">
+				<p>Gimnastica profilactică și terapeutică pentru corp și spirit.</p>
+			</div>
+
+			<div class="about-text">
+				<p>Carieră profesională în Karate-Do: spotrivi, arbitri, antrenori și voluntari.</p>
+			</div>
+		</div>
+
+		<div class="square"></div>
+	</div> -->
+
+	<!-- <div class="quote">
+		<div class="quote-text">
+			<p class="quote-big">Doar cu puterea spuritului îl poți câștiga pe dușman.</p>
+			<p class="quote-small">Puteți să vă antrenați de mulți ani, dar, dacă pur și simplu mișcați cu mâinele, picoarele și săriți sus-jos ca o marioneta, karateul nu se deosebește de dans. 
+				Niciodată nu veți ajunge la esența, și sensul karateului va rămâne neînțeles.</p>
+			<p class="quote-small">− <i>Gichin Funakoshi</i></p>
+		</div>
+	</div> -->
+
+	<!-- <div class="partners">
+		<div class="link wkf" onClick="goLink('https://www.wkf.net/')"></div>
+	</div> -->
+
+	<!-- <div class="with-video">
+		<div class="video-text">
+			<div class="subhead-oficial"><p>REZULTATE</p></div>
+			<div class="header-oficial"><p>Suntem profesioniști in domeniul nostru.</p></div>
+
+			<div class="main-oficial">
+				<div class="smalltext-oficial">
+					<p>Specializăm atât în ​​sport-luptă Karate-Do, cât și în arta de Karate-Do − kata, așa că fiecare poate găsi ceva potrivit pentru sine.</p>
+					<p>Te așteaptă competiții internaționale, dezvoltare spirituală și fizică și bineinteles comunicare caldă.</p>
+					<p>Vino tu și adu-ți copiii, devii parte din familia karateka!</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="video">
+			<video width="100%" autoplay muted loop>
+				poster="img/pic-child.jpg"
+				<source src="img/video-background.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div> -->
+
+	<div class="bottom-form">
+		<div class="bottom-image">
+			<div class="subhead-oficial" style="color: #212121;"><p>FEEDBACK</p></div>
+			<div class="header-oficial" style="color: white; text-shadow: 5px 7px 10px rgba(0, 0, 0, 0.3);"><p>Aveți intrebări? Contactați-ne!</p></div>
+		</div>
+
+		<div class="form-box">
+			<form>
+				<div class="form-inputs">
+					<div><input class="felement" placeholder="Prenume" pattern="^[A-Za-z]+$" required></div>
+					<div><input class="felement" type="email" placeholder="Email" required></div>
+				</div>
+				<div>
+					<textarea class="felement" placeholder="Mesaj"></textarea>
+				</div>
+				<div><button class="send" type="submit">TRIMITE MESAJ</button></div>
+			</form>
+		</div>
+	</div>
+
+	<!-- <div class="contact">
+		<div class="contacte">
+			<div class="subhead-oficial"><p>CONTACTE</p></div>
+
+			<div class="cont-flex-start">
+				<div class="for-icon">
+					<div class="icon ico1"></div>
+					<div>
+						<p class="footer-text cont-footer-text">Adresă: </p>
+						<p class="footer-text cont-footer-text">Chișinău, str.București 41/D, MD-2012</p>
+					</div>
+				</div>
+
+				<div class="for-icon">
+					<div class="icon ico2"></div>
+					<p class="footer-text cont-footer-text">Tel.: + (373) 79 955 388</p>
+				</div>
+	
+				<div class="for-icon">
+					<div class="icon ico3"></div>
+					<p class="footer-text cont-footer-text doc-animate">Email: <a class="doc" href="mailto:mda.wkf@gmail.com">mda.wkf@gmail.com</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="documente">
+			<div class="subhead-oficial"><p>DOCUMENTE</p></div>
+
+			<div class="cont-flex-start doc-first-margin">
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/STATUTUL FNK RM WKF.pdf')">Statutul FNK RM WKF</a></p>
+				</div>
+
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/CODUL ETIC SI DISCIPLINAR AL FNK RM WKF.pdf')">Codul etic și disciplinar al FNK RM WKF</a></p>
+				</div>
+	
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/REGULAMENT DE AFILIERE.pdf')">Regulament de afiliere</a></p>
+				</div>
+
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/ACTE JURIDICE.pdf')">Acte juridice</a></p>
+				</div>
+				
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/MODELE DE CERERI.pdf')">Modele de cereri</a></p>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<div class="copyright">
+		<div><p>© Federația Națională de KarateDo din Republica Moldova</p></div>
+		<div><p>Made by vyshnovka</p></div>
+	</div>
 </body>
 
-</html>
+<script src="js/link.js"></script>
+
+</html> 
