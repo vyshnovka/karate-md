@@ -83,7 +83,7 @@
 
 /* MENU OPTIONS */
 .menu-all {
-    padding: 2vw 11vw 4vw 11vw;
+    padding: 2vw 11vw 2vw 10.5vw;
     width: 100%;
   	height: auto;
     display: flex;
@@ -100,6 +100,7 @@
 }
 
 .section {
+    padding: 2vw 0;
 	width: 20%;
 	height: 20vw;
 	display: flex;
@@ -117,18 +118,20 @@
 
 .logo-menu {
     margin-top: 1vw;
-	width: 6.2vw;
-	height: 6.2vw;
-	background-size: cover;
+	width: 8vw;
+	height: 5vw;
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .menuname {
-	height: 17%;
+    margin-top: 0.5vw;
+	height: 20%;
 	font-weight: bold;
 }
 
 .menutext {
-    margin: 0.5vw 1.5vw;
 	height: 20%;
 	color: #545454;
 	font-size: 1vw;
@@ -271,20 +274,19 @@ textarea {
 
 /* VIDEO */
 /* .with-video {
-    margin-top: 5vw;
     display: flex;
     flex-direction: row;
 }
 
 .video-text {
-    margin-left: 10vw;
+    margin-left: 10.5vw;
     width: 40vw;
     height: 30vw;
 }
 
 .video {
     margin: 0 5vw 5vw 0;
-    width: 40vw;
+    width: 39vw;
     overflow: hidden; 
     display: flex; 
 } */
@@ -357,8 +359,9 @@ textarea {
 } */
 
 .contacts {
-	height: 90vh;
-	width: 100%;
+    margin: 6vw 0;
+    width: 100%;
+	height: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -366,27 +369,21 @@ textarea {
 }
 
 .firstbig {
-	width: 30%;
-	height: 75vh;
+	width: 39%;
+	height: 25vw;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: flex-start;
 }
 
 .secondbig {
-	width: 30%;
-	height: 75vh;
+	width: 39%;
+	height: 25vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-end;
-}
-
-.maintitle {
-	font-size: 4.7vh;
-	font-weight: 700;
-	margin-bottom: 3vh;
 }
 
 .title {
@@ -395,20 +392,9 @@ textarea {
 	color: #212121;
 }
 
-.address {
-	font-size: 1.2vw;
-	font-weight: 400;
-	color: #828282;
-}
-
-.mar {
-	margin-top: 3vh;
-}
-
-.text {
-	font-size: 1.2vw;
-	font-weight: 400;
-	color: #828282;
+.footer-text {
+	font-size: 1vw;
+	color:#545454;
 }
 
 .email {
@@ -422,6 +408,33 @@ textarea {
 	margin: 0;
 }
 
+.for-icon {
+    margin-top: 0.5vw;
+	display: flex;
+	flex-direction: row;
+}
+
+.icon {
+    margin-right: 0.5vw;
+	width: 1.6vw;
+	height: 1.6vw;
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.ico1 {
+	background-image: url(../img/adresa.png);
+}
+
+.ico2 {
+	background-image: url(../img/tel.png);
+}
+
+.ico3 {
+	background-image: url(../img/email.png);
+} */
+
 .doc {
     color: #000000;
 	text-decoration: none;
@@ -433,8 +446,7 @@ textarea {
 }
 
 #map { 
-	margin-top: 1vh;
 	z-index: 3;
 	width: 100%; 
-	height: 70%;
+	height: 100%;
 }
