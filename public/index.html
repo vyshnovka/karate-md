@@ -12,8 +12,10 @@
 	<link rel="stylesheet" href="css/copyright.css"/>
 	
 	<link rel="stylesheet" href="css/animate.css"/>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
 
 	<script type="text/javascript" src="http://www.s-sd.ru/js/jquery.js"></script>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
 </head>
 <body>
 	<div class="container">
@@ -23,6 +25,7 @@
 			<div class="links">
 				<div class="link facebook" onClick="goLink('https://www.facebook.com/moldovakaratedo')"></div>
 				<div class="link instagram" onClick="goLink('https://www.instagram.com/moldovakaratedo/')"></div>
+				<div class="link wkf" onClick="goLink('https://www.wkf.net/')"></div>
 			</div>
 		</div>
 
@@ -86,38 +89,6 @@
 		</div>
 	</div>
 
-	<!-- <div class="about">
-		<div class="subhead-oficial"><p>SERVICII</p></div>
-		<div class="header-oficial"><p>Devine cu un pas mai aproape de Karate-Do împreună cu FNK RM.</p></div>
-
-		<div class="about-display about-top">
-			<div class="about-size about-pic pic1"></div>
-			<div class="about-size about-pic pic2"></div>
-			<div class="about-size about-pic pic3"></div>
-			<div class="about-size about-pic pic4"></div>
-		</div>
-
-		<div class="about-display about-bottom">
-			<div class="about-text">
-				<p>Antrenamente de Karate-Do pentru tineret și copii de toate vârstele.</p>
-			</div>
-
-			<div class="about-text">
-				<p>Cursuri pentru adulți și activități pentru părinți alături de copii.</p>
-			</div>
-
-			<div class="about-text">
-				<p>Gimnastica profilactică și terapeutică pentru corp și spirit.</p>
-			</div>
-
-			<div class="about-text">
-				<p>Carieră profesională în Karate-Do: spotrivi, arbitri, antrenori și voluntari.</p>
-			</div>
-		</div>
-
-		<div class="square"></div>
-	</div> -->
-
 	<!-- <div class="quote">
 		<div class="quote-text">
 			<p class="quote-big">Doar cu puterea spuritului îl poți câștiga pe dușman.</p>
@@ -125,10 +96,6 @@
 				Niciodată nu veți ajunge la esența, și sensul karateului va rămâne neînțeles.</p>
 			<p class="quote-small">− <i>Gichin Funakoshi</i></p>
 		</div>
-	</div> -->
-
-	<!-- <div class="partners">
-		<div class="link wkf" onClick="goLink('https://www.wkf.net/')"></div>
 	</div> -->
 
 	<!-- <div class="with-video">
@@ -225,10 +192,56 @@
 		</div>
 	</div> -->
 
+	<div class="contacts">
+		<div class="firstbig">
+			<div class="subhead-oficial"><p>CONTACTE</p></div>
+			<div class="address"><p>Adresă: Chișinău, str.București 41/D, MD-2012</p></div>
+			<div class="text name"><p>Tel.: + (373) 79 955 388</p></div>
+			<div class="text"><p>Email: <a class="email" href="mailto:mda.wkf@gmail.com">mda.wkf@gmail.com</a></p></div>
+
+			<div class="subhead-oficial"><p>DOCUMENTE</p></div>
+
+			<div class="cont-flex-start doc-first-margin">
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/STATUTUL FNK RM WKF.pdf')">Statutul FNK RM WKF</a></p>
+				</div>
+
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/CODUL ETIC SI DISCIPLINAR AL FNK RM WKF.pdf')">Codul etic și disciplinar al FNK RM WKF</a></p>
+				</div>
+	
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/REGULAMENT DE AFILIERE.pdf')">Regulament de afiliere</a></p>
+				</div>
+
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/ACTE JURIDICE.pdf')">Acte juridice</a></p>
+				</div>
+				
+				<div class="for-icon doc-flex-end">
+					<p class="footer-text doc-footer-text doc-animate"><a class="doc" onClick="goLink('docs/MODELE DE CERERI.pdf')">Modele de cereri</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="secondbig">
+			<div id="map"></div>
+		</div>
+	</div>
+
 	<div class="copyright">
 		<div><p>© Federația Națională de KarateDo din Republica Moldova</p></div>
 		<div><p>Made by vyshnovka</p></div>
 	</div>
+
+	<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoidmlrdWxpc2huYSIsImEiOiJjanZrdnE1aGEwdnNrNGFrM2x1c2t1NG1zIn0.4NoYN2-VqofN4YyEwj_oAg';
+		const map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/vikulishna/cknq6b1u705x418p9opd64pcp',
+			center: [28.833812, 47.022938],
+			zoom: 15
+		});
+	</script>
 </body>
 
 <script src="js/link.js"></script>
