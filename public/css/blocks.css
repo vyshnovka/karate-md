@@ -81,6 +81,82 @@
     color: black;
 }
 
+/* MENU OPTIONS */
+.menu-all {
+    padding: 6vw 11vw 6vw 11vw;
+    width: 100%;
+  	height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f7f5f3;
+}
+
+.menu {
+    width: 78%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section {
+    margin-top: 2vw;
+	width: 20%;
+	height: 20vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #ffffff;
+	cursor: pointer;
+	border-radius: 7px;
+	transition: all 0.5s ease;
+	font-size: 1.5vw;
+}
+
+.section:hover {
+	transform: scale(1.1);
+}
+
+.logo-menu {
+    margin-top: 1.8vw;
+	width: 5.5vw;
+	height: 5vw;
+	background-size: cover;
+}
+
+.menuname {
+	height: 17%;
+	font-weight: bold;
+}
+
+.menutext {
+	height: 20%;
+	margin: 0 2.2vw;
+	color: #545454;
+	font-size: 1vw;
+	font-weight: 400;
+    line-height: 1.5;
+	text-align: justify;
+}
+
+.copii {
+    background-image: url(../img/copii.png);
+}
+
+.adult {
+    background-image: url(../img/adulti.png);
+}
+
+.terapia {
+    background-image: url(../img/sanatate.png);
+}
+
+.sportiv {
+    background-image: url(../img/cariera.png);
+}
+
 
 /* BIG BOTTOM IMAGE */
 .bottom-form {
