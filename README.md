@@ -13,4 +13,4 @@ This is the repository for hosting FNK RM WKF website using Heroku.
 
 ## Setup
 
-1. Click [here](https://karate-md.herokuapp.com/) or go to [karatemd.org](http://www.karatemd.org/) to see the preview.  
+Click [here](https://karate-md.herokuapp.com/) or go to [karatemd.org](http://www.karatemd.org/) to see the preview.  
