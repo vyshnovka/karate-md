@@ -1,6 +1,6 @@
 # FNK RM WKF
 
-This is the repository for hosting FNK RM WKF website using Heroku.
+This is the repository for hosting FNK RM WKF website using Express.js and Heroku.
 
 ## Tools
 
