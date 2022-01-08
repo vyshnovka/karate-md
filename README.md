@@ -2,6 +2,8 @@
 
 This is the repository for hosting FNK RM WKF website using Express.js and Heroku.
 
+It is just a landing page. Simple as that.
+
 ## Tools
 
 ![image](https://img.shields.io/badge/HTML-e33c26?style=for-the-badge&logo=html5&logoColor=white) 
@@ -13,4 +15,4 @@ This is the repository for hosting FNK RM WKF website using Express.js and Herok
 
 ## Setup
 
-Click [here](https://karate-md.herokuapp.com/) or go to [karatemd.org](http://www.karatemd.org/) to see the preview.  
+Click [here](https://karate-md.herokuapp.com/) to see the preview.  
