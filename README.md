@@ -12,7 +12,3 @@ It is just a landing page. Simple as that.
 ![image](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) 
 ![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) 
 ![image](https://img.shields.io/badge/Heroku-8e6eb2?style=for-the-badge&logo=heroku&logoColor=white) 
-
-## Setup
-
-Click [here](https://karate-md.herokuapp.com/) to see the preview.  
