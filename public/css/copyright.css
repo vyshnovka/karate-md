@@ -6,9 +6,9 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #545454;
+	background-color: #212121;
 	color: white;
-	font-size: 0.8vw;
+	font-size: 0.75vw;
 }
 
 .copyright p {
@@ -17,5 +17,5 @@
 
 .copyright a {
 	text-decoration: none;
-	color: white;
+	color: #ffdc23;
 }
