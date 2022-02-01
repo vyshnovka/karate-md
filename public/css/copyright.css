@@ -14,3 +14,8 @@
 .copyright p {
 	margin: 0.3vw;
 }
+
+.copyright a {
+	text-decoration: none;
+	color: white;
+}
