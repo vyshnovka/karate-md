@@ -73,7 +73,7 @@
     width: 35vw;
     font-size: 1vw;
     line-height: 1.65;
-    text-align: left;
+    text-align: justify;
     color: #545454;
 }
 
@@ -161,6 +161,29 @@
 } */
 
 
+/** VIDEO */
+
+.with-video {
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.video-text {
+    margin-left: 5vw;
+    width: 40vw;
+    height: 30vw;
+    text-align: justify;
+}
+
+.video {
+    margin-bottom: 10vh;
+    width: 39vw;
+    overflow: hidden; 
+    display: flex; 
+}
+
+
 /** BIG BOTTOM IMAGE */
 
 .bottom-form {
@@ -170,8 +193,8 @@
 }
 
 .bottom-image {
-    padding: 5vw 25vw 0 25vw;
-    width: 50%;
+    margin: 0 10vw;
+    padding: 5vw 15vw 0 15vw;
     height: 50vh;
     background-image: url(../img/back-bottom.jpg);
     background-size: cover;
@@ -276,28 +299,6 @@ textarea {
 .quote-small {
     font-size: 1.2vw;
 } */
-
-
-/** VIDEO */
-
-.with-video {
-    padding: 0 10vw;
-    display: flex;
-    flex-direction: row;
-}
-
-.video-text {
-    margin-left: 5vw;
-    width: 40vw;
-    height: 30vw;
-}
-
-.video {
-    margin-bottom: 10vh;
-    width: 39vw;
-    overflow: hidden; 
-    display: flex; 
-}
 
 
 /** CONTACTS and DOCUMENTS */
