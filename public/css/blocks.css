@@ -281,18 +281,19 @@ textarea {
 /** VIDEO */
 
 .with-video {
+    padding: 0 10vw;
     display: flex;
     flex-direction: row;
 }
 
 .video-text {
-    margin-left: 10.5vw;
+    margin-left: 5vw;
     width: 40vw;
     height: 30vw;
 }
 
 .video {
-    margin: 0 5vw 5vw 0;
+    margin-bottom: 5vw;
     width: 39vw;
     overflow: hidden; 
     display: flex; 
