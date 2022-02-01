@@ -1,8 +1,10 @@
-/* ABOUT US OFICIALLY */
+/** ABOUT US */
+
 .oficial {
-    padding: 5vw 0 6vw 0;
+    padding-top: 10vh;
+    /* margin-top: 5vw; */
     width: 100%;
-  	height: auto;
+  	height: 90vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -81,8 +83,10 @@
     color: black;
 }
 
-/* MENU OPTIONS */
-.menu-all {
+
+/** MENU OPTIONS */
+
+/* .menu-all {
     padding: 2vw 11vw 2vw 10.5vw;
     width: 100%;
   	height: auto;
@@ -154,10 +158,11 @@
 
 .sportiv {
     background-image: url(../img/cariera.png);
-}
+} */
 
 
-/* BIG BOTTOM IMAGE */
+/** BIG BOTTOM IMAGE */
+
 .bottom-form {
     width: 100%;
     height: 80vh;
@@ -242,7 +247,8 @@ textarea {
 }
 
 
-/* QUOTE */
+/** QUOTE */
+
 /* .quote {
     padding: 2% 0 3% 0;
     width: 100%;
@@ -272,8 +278,9 @@ textarea {
 } */
 
 
-/* VIDEO */
-/* .with-video {
+/** VIDEO */
+
+.with-video {
     display: flex;
     flex-direction: row;
 }
@@ -289,74 +296,10 @@ textarea {
     width: 39vw;
     overflow: hidden; 
     display: flex; 
-} */
-
-
-/* CONTACTS and DOCUMENTS */
-/* .contact {
-    padding: 5vw 25% 3vw 25%;
-    width: 50%;
-    height: 40vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
 }
 
-.contacte {
-    width: 50%;
-    font-size: 1vw;
-}
 
-.documente {
-    width: 50%;
-    text-align: right;
-    font-size: 1vw;
-}
-
-.footer-text {
-	padding: 0px;
-}
-
-.doc {
-    color: #000000;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-.doc:hover {
-	color: #ffdc23;
-}
-
-.for-icon {
-	display: flex;
-	flex-direction: row;
-}
-
-.doc-first-margin {
-    margin-top: 3vw;
-}
-
-.icon {
-	margin: 1.4vw 0.7vw 0 0;
-	width: 1.7vw;
-	height: 1.7vw;
-	background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-}
-
-.ico1 {
-	background-image: url(../img/adresa.png);
-}
-
-.ico2 {
-	background-image: url(../img/tel.png);
-}
-
-.ico3 {
-	background-image: url(../img/email.png);
-} */
+/** CONTACTS and DOCUMENTS */
 
 .contacts {
     margin: 6vw 0;
