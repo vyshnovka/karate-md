@@ -293,7 +293,7 @@ textarea {
 }
 
 .video {
-    margin-bottom: 5vw;
+    margin-bottom: 10vh;
     width: 39vw;
     overflow: hidden; 
     display: flex; 
@@ -303,7 +303,7 @@ textarea {
 /** CONTACTS and DOCUMENTS */
 
 .contacts {
-    margin: 6vw 0;
+    margin: 10vh 0;
     width: 100%;
 	height: auto;
 	display: flex;
