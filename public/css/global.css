@@ -1,3 +1,5 @@
+/** GLOBAL SETTINGS */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
 
 html {
@@ -11,4 +13,23 @@ body {
 	height: auto;
     overflow-x: hidden;
 	user-select: none;
+}
+
+
+/** CUSTOM SCROLLBAR */
+
+:root {
+    --animate-delay: 0.9s;
+}
+
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+  
+::-webkit-scrollbar-track {
+    background: #EDEDED; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #1b1b1b; 
 }
