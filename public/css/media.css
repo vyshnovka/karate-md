@@ -1,3 +1,25 @@
-@media only screen and (max-width: 600px) {
-    /* TODO just everything */
+@media screen and (max-width: 992px) {
+    .links {
+        width: 20%;
+    }
+
+    .link {
+        margin-left: 10%;
+        width: 40%;
+        height: 100%;
+    }
+    
+    .subhead {
+        margin-bottom: 5vh;
+        font-size: 5vw;
+    }
+
+    .big {
+        font-size: 10vw;
+        line-height: normal;
+    }
+
+    .small {
+        font-size: 10vw;
+    }
 }
