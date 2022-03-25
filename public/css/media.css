@@ -26,6 +26,31 @@
     }
 
 
+    /** FORM AND IMAGE */
+
+    .bottom-form {
+        height: 40vh;
+    }
+
+    .bottom-image {
+        margin: 0;
+        height: 30vh;
+    }
+
+    .form-box {
+        width: 80%;
+        height: 25vh;
+        left: 10%;
+    }
+
+
+    /** CONTACTS AND DOCUMENTS */
+
+    #map {
+        display: none;
+    }
+
+
     /** FOOTER */
 
     .copyright {
