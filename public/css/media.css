@@ -1,4 +1,6 @@
 @media screen and (max-width: 992px) {
+    /** HEADER WITH IMAGE */
+
     .links {
         width: 20%;
     }
@@ -21,5 +23,13 @@
 
     .small {
         font-size: 10vw;
+    }
+
+
+    /** FOOTER */
+
+    .copyright {
+        height: 5vh;
+        font-size: 1vh;
     }
 }

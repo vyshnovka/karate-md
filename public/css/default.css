@@ -511,7 +511,7 @@ textarea {
 
 .ico3 {
 	background-image: url(../img/email.png);
-} */
+}
 
 .doc {
     color: #000000;
@@ -533,7 +533,7 @@ textarea {
 /** FOOTER */
 
 .copyright {
-	padding: 0 10%;
+	padding: 0.1% 10%;
 	width: 80%;
 	height: auto;
 	display: flex;
@@ -542,7 +542,7 @@ textarea {
 	justify-content: space-between;
 	background-color: #212121;
 	color: white;
-	font-size: 0.8vw;
+	font-size: 0.9vw;
 }
 
 .copyright p {
@@ -552,4 +552,8 @@ textarea {
 .copyright a {
 	text-decoration: none;
 	color: #ffdc23;
+}
+
+.footer-align {
+    text-align: right;
 }
