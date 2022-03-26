@@ -27,12 +27,25 @@
 
     /** ABOUT US */
 
+    .oficial {
+        padding-top: 4vh;
+    }
+
     .subhead-oficial {
         font-size: 3vw;
     }
 
     .header-oficial {
-        font-size: 4.5vw;
+        font-size: 4.4vw;
+    }
+
+    .text-oficial {
+        width: 35vw;
+    }
+
+    .pic-oficial {
+        width: 40vw;
+        height: 55vw;
     }
 
 
