@@ -25,6 +25,16 @@
         font-size: 10vw;
     }
 
+    /** ABOUT US */
+
+    .subhead-oficial {
+        font-size: 3vw;
+    }
+
+    .header-oficial {
+        font-size: 4.5vw;
+    }
+
 
     /** FORM AND IMAGE */
 
@@ -34,6 +44,7 @@
 
     .bottom-image {
         margin: 0;
+        padding: 4vh 10% 0 10%;
         height: 30vh;
     }
 
@@ -41,6 +52,41 @@
         width: 80%;
         height: 25vh;
         left: 10%;
+        border-bottom: 2px solid #ffdc23;
+    }
+
+    .felement {
+        width: 30vw;
+        height: 3vh;
+        font-size: 2vw;
+        border-bottom: 1.5px solid #EDEDED;
+    }
+
+    .felement:first-child {
+        margin-right: 2vw;
+    }
+
+    .felement:last-child {
+        margin-left: 2vw;
+    }
+
+    textarea {
+        margin-top: 1vh;
+        width: 64vw !important;
+        height: 9vh !important;
+    }
+
+    .send {
+        margin: 1vh 0 0.5vh 0;
+        padding: 2.5% 5%;
+        font-size: 2.2vw;
+    }
+
+    .for-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
 
