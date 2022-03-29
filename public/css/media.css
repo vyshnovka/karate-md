@@ -41,6 +41,27 @@
 
     .text-oficial {
         width: 35vw;
+        height: auto;
+    }
+
+    .main-oficial {
+        width: 75vw;
+    }
+
+    .smalltext-oficial {
+        width: 100%;
+        font-size: 2vw;
+        line-height: 1.2;
+    }
+
+    .small-subhead-oficial {
+        font-size: 2.1vw;
+    }
+
+    .oficial-hr hr {
+        border: none;
+        background-color: #ffdc23;
+        height: 1.5px;
     }
 
     .pic-oficial {

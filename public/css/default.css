@@ -186,9 +186,9 @@
     margin: 1.4vw 1vw 0 0;
     width: 5vw;
     text-align: center;
-    font-size: 1.2vw;
+    /* font-size: 1.2vw;
     font-weight: lighter;
-    color: #545454;
+    color: #545454; */
 }
 
 .oficial-hr hr {
