@@ -28,8 +28,8 @@
     /** ABOUT US */
 
     .oficial {
-        padding-top: 5vh;
-        margin-bottom: 3vh;
+        padding-top: 8vw;
+        margin-bottom: 5vw;
     }
 
     .subhead-oficial {
@@ -74,8 +74,8 @@
     /** VIDEO */
     
     .with-video {
-        margin-bottom: 2vh;
-        height: 40vh;
+        margin-bottom: 4vw;
+        height: 70vw;
         position: relative;
     }
 
