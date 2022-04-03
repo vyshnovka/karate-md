@@ -171,10 +171,29 @@
 
     .firstbig {
         width: 80%;
+        height: auto;
+    }
+
+    .firstbig .subhead-oficial {
+        margin-bottom: 2.3vh;
+    }
+
+    .last-subhead {
+        margin-top: 3.5vh;
     }
 
     .footer-text {
-        /* font-size: 2.4vw; */
+        font-size: 2.7vw;
+    }
+
+    .icon {
+        margin-right: 1.5vw;
+        width: 2.4vh;
+        height: 2.4vh;
+    }
+
+    .media-doc {
+        margin-top: 0.7vh;
     }
 
     .secondbig {

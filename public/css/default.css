@@ -468,12 +468,6 @@ textarea {
 	align-items: flex-end;
 }
 
-.title {
-	font-size: 3.5vh;
-	font-weight: 600;
-	color: #212121;
-}
-
 .footer-text {
 	font-size: 1vw;
 	color:#545454;
@@ -518,7 +512,6 @@ textarea {
 }
 
 .doc {
-    color: #000000;
 	text-decoration: none;
 	cursor: pointer;
 }
