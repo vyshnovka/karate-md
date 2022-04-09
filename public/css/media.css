@@ -200,6 +200,11 @@
         display: none;
     }
 
+    .tel-for-ios {
+        color: inherit;
+        text-decoration: none;
+    }
+
 
     /** FOOTER */
 
