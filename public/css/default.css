@@ -549,6 +549,7 @@ textarea {
 .copyright a {
 	text-decoration: none;
 	color: #ffdc23;
+    cursor: pointer;
 }
 
 .footer-align {
