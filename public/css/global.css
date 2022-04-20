@@ -12,7 +12,10 @@ body {
 	width: 100%;
 	height: auto;
     overflow-x: hidden;
-	user-select: none;
+}
+
+p::selection, a::selection, input::selection, textarea::selection, button::selection {
+	background-color: #d1d1d1;
 }
 
 
