@@ -132,13 +132,13 @@
 		</div>
 
 		<div class="form-box">
-			<form>
+			<form id="feedback-form">
 				<div class="form-inputs">
-					<div><input class="felement" placeholder="Prenume" pattern="^[A-Za-z]+$" required></div>
-					<div><input class="felement" type="email" placeholder="Email" required></div>
+					<div><input class="felement" id="form-name" placeholder="Prenume" pattern="^[A-Za-z]+$" required></div>
+					<div><input class="felement" id="form-topic" placeholder="Subiect" required></div>
 				</div>
 				<div>
-					<textarea class="felement" placeholder="Mesaj"></textarea>
+					<textarea class="felement" id="form-message" placeholder="Mesaj"></textarea>
 				</div>
 				<div class="for-button"><button class="send" type="submit">TRIMITE MESAJ</button></div>
 			</form>
@@ -159,7 +159,7 @@
 				</div>
 				<div class="footer-text for-icon">
 					<div class="icon ico3"></div>
-					<p style="padding-top: 0.2vw;">Email: <a class="email" href="mailto:mda.wkf@gmail.com">mda.wkf@gmail.com</a></p>
+					<p style="padding-top: 0.2vw;">Email: <a class="email" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=mda.wkf@gmail.com">mda.wkf@gmail.com</a></p>
 				</div>	
 			</div>
 			
@@ -209,5 +209,6 @@
 </body>
 
 <script src="js/link.js"></script>
+<script src="js/email.js"></script>
 
 </html> 
