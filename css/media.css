@@ -99,7 +99,7 @@
     }
     
     .video {
-        width: 40vw;
+        width: 45vw;
     }
 
     video {
@@ -129,7 +129,7 @@
     .felement {
         width: 30vw;
         height: 3vh;
-        font-size: 2.4vw;
+        font-size: 2.7vw;
         border-radius: 0;
         border-bottom: 1.5px solid #EDEDED;
     }
@@ -150,8 +150,8 @@
 
     .send {
         margin: 1vh 0 0.5vh 0;
-        padding: 2.5% 5%;
-        font-size: 2.2vw;
+        padding: 3% 15%;
+        font-size: 2.5vw;
         white-space: nowrap;
     }
 
