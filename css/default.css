@@ -53,9 +53,9 @@
     transition: 0.5s;
 }
 
-/* .wkf {
-    background-image: url(../img/wkf-logo.png);
-} */
+.wkf {
+    background-image: url(../img/wkf-logo-2.png);
+}
 
 .facebook {
     background-image: url(../img/facebook.png);
