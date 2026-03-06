@@ -1,13 +1,17 @@
 @media screen and (max-width: 992px) {
     /** HEADER WITH IMAGE */
 
+    .logo {
+        width: 45%;
+    }
+
     .links {
-        width: 20%;
+        width: 40%;
     }
 
     .link {
         margin-left: 10%;
-        width: 40%;
+        width: 50%;
         height: 100%;
     }
     
@@ -167,19 +171,18 @@
 
     .contacts {
         margin: 4vh 0;
+        flex-direction: column;
+        align-content: left;
     }
 
-    .firstbig {
-        width: 80%;
+    .contact-child {
+        width: 80vw;
         height: auto;
+        margin: 1.5vh 0;
     }
 
-    .firstbig .subhead-oficial {
-        margin-bottom: 2.3vh;
-    }
-
-    .last-subhead {
-        margin-top: 3.5vh;
+    .subhead-oficial {
+        margin: 0 0 1vh 0;
     }
 
     .footer-text {
@@ -194,10 +197,6 @@
 
     .media-doc {
         margin-top: 0.7vh;
-    }
-
-    .secondbig {
-        display: none;
     }
 
     .tel-for-ios {

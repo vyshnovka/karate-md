@@ -145,7 +145,7 @@
 	</div>
 
 	<div class="contacts">
-		<div class="firstbig">
+		<div class="contact-child">
 			<div class="subhead-oficial" style="color: #212121;"><p>CONTACTE</p></div>
 			<div>
 				<div class="footer-text for-icon">
@@ -161,8 +161,10 @@
 					<p style="padding-top: 0.2vw;">Email: <a class="email" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=mda.wkf@gmail.com">mda.wkf@gmail.com</a></p>
 				</div>	
 			</div>
-			
-			<div class="subhead-oficial last-subhead" style="color: #212121;"><p>DOCUMENTE</p></div>
+		</div>
+		
+		<div class="contact-child">
+			<div class="subhead-oficial" style="color: #212121;"><p>DOCUMENTE</p></div>
 			<div>
 				<div class="for-icon media-doc">
 					<p class="footer-text"><a class="doc" onClick="goLink('docs/STATUTUL FNK RM WKF.pdf')">Statutul FNK RM WKF</a></p>
@@ -185,26 +187,12 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="secondbig">
-			<div id="map"></div>
-		</div>
 	</div>
 
 	<div class="copyright">
 		<div><p>© Federația Națională de KarateDo din Republica Moldova, 2022-2026</p></div>
 		<div class="footer-align"><p>Made by <a onClick="goLink('https://vyshnovka.github.io/')">vyshnovka</a></p></div>
 	</div>
-
-	<script>
-		mapboxgl.accessToken = 'pk.eyJ1IjoidmlrdWxpc2huYSIsImEiOiJjanZrdnE1aGEwdnNrNGFrM2x1c2t1NG1zIn0.4NoYN2-VqofN4YyEwj_oAg';
-		const map = new mapboxgl.Map({
-			container: 'map',
-			style: 'mapbox://styles/vikulishna/cknq6b1u705x418p9opd64pcp',
-			center: [28.833812, 47.022938],
-			zoom: 15
-		});
-	</script>
 </body>
 
 <script src="js/link.js"></script>

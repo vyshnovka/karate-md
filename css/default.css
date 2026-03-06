@@ -441,31 +441,26 @@ textarea {
 /** CONTACTS AND DOCUMENTS */
 
 .contacts {
-    margin: 10vh 0;
+    margin: 13vh 10vw 10vh 10vw;
     width: 100%;
 	height: auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 }
 
-.firstbig {
-	width: 39%;
-	height: 25vw;
-	display: flex;
+.contact-child {
+    width: 40vw;
+    height: 20vh;
+    display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
-.secondbig {
-	width: 39%;
-	height: 25vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-end;
+.subhead-oficial {
+    margin: 0 0 1.5vh 0;
 }
 
 .footer-text {
@@ -518,12 +513,6 @@ textarea {
 
 .doc:hover {
 	color: #ffdc23;
-}
-
-#map { 
-	z-index: 3;
-	width: 100%; 
-	height: 100%;
 }
 
 
