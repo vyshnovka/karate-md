@@ -25,16 +25,16 @@
 
 .logo {
     margin-top: 3%;
-    width: 65%;
+    width: 50%;
     height: 70%;
-    background-image: url(../img/logo.png);
+    background-image: url(../img/ico.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left bottom;
 }
 
 .links {
-    width: 15%;
+    width: 25%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -43,18 +43,13 @@
 }
 
 .link {
-    margin: 0 3%;
     width: 20%;
-    height: 23%;
+    height: 35%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     cursor: pointer;
     transition: 0.5s;
-}
-
-.wkf {
-    background-image: url(../img/wkf-logo.png);
 }
 
 .facebook {
@@ -94,7 +89,7 @@
 .subhead {
     margin-bottom: 2vw;
     font-size: 1.4vw;
-    color: #ffdc23;
+    color: #3f3fd4;
 }
 
 .big {
@@ -149,7 +144,7 @@
     margin-right: 10vw;
     width: 35vw;
     height: 40vw;
-    background-image: url(../img/oficial-pic.jpg);
+    background-image: url(../img/oficial-pic.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right top;
@@ -193,7 +188,7 @@
 
 .oficial-hr hr {
     border: none;
-    background-color: #ffdc23;
+    background-color: #3f3fd4;
     height: 3px;
 }
 
@@ -351,7 +346,7 @@
     bottom: 0;
     left: 25vw;
     background-color: white;
-    border-bottom: 4px solid #ffdc23;
+    border-bottom: 4px solid #3f3fd4;
 }
 
 .form-inputs {
@@ -398,7 +393,7 @@ textarea {
 }
 
 .send:hover {
-	background-color: #ffdc23;
+	background-color: #3f3fd4;
 	color: #ffffff;
 }
 
@@ -441,7 +436,7 @@ textarea {
 /** CONTACTS AND DOCUMENTS */
 
 .contacts {
-    margin: 13vh 10vw 10vh 10vw;
+    margin: 5vh 10vw 10vh 10vw;
     width: 100%;
 	height: auto;
 	display: flex;
@@ -494,6 +489,10 @@ textarea {
     background-position: left bottom;
 }
 
+.contacts .link {
+    margin: 0 1vw 0 0;
+}
+
 .ico1 {
 	background-image: url(../img/adresa.png);
 }
@@ -512,7 +511,7 @@ textarea {
 }
 
 .doc:hover {
-	color: #ffdc23;
+	color: #3f3fd4;
 }
 
 
@@ -537,7 +536,7 @@ textarea {
 
 .copyright a {
 	text-decoration: none;
-	color: #ffdc23;
+	color: #3f3fd4;
     cursor: pointer;
 }
 
