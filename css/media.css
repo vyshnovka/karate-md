@@ -175,6 +175,28 @@
         justify-content: center;
     }
 
+    /** RESULTS */
+
+    .results {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-results {
+        font-size: 4.4vw;
+    }
+
+    .smalltext-results {
+        width: 100%;
+        font-size: 2.7vw;
+        line-height: 1.2;
+    }
+
+    .small-subhead-results {
+        margin-top: 0;
+        font-size: 2.8vw;
+    }
+
 
     /** CONTACTS AND DOCUMENTS */
 

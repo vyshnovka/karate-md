@@ -433,6 +433,43 @@ textarea {
 } */
 
 
+/** RESULTS */
+
+.results {
+     margin: -1vh 0 9vh 0;
+     width: 100%;
+     height: auto;
+     text-align: justify;
+}
+
+.header-results {
+    font-size: 2.2vw;
+    font-weight: bold;
+}
+
+.text-results {
+    margin: 0 10vw;
+    width: 80%;
+    height: auto;
+}
+
+.main-results {
+    width: 100%;
+}
+
+.smalltext-results {
+    font-size: 1vw;
+    line-height: 1.65;
+    color: #545454;
+}
+
+.small-subhead-results {
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
 /** CONTACTS AND DOCUMENTS */
 
 .contacts {
